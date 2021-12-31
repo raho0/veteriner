@@ -1,4 +1,4 @@
-# veteriner-api-ozguryazilim
+# veteriner-api
 
 - ## Creating User (/register)
 
