@@ -1,6 +1,5 @@
 package com.ozguryazilim.veteriner.Config;
 
-import com.ozguryazilim.veteriner.Entity.CustomUserDetail;
 import com.ozguryazilim.veteriner.Service.AuthorizationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

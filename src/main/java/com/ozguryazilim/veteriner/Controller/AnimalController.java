@@ -2,7 +2,7 @@ package com.ozguryazilim.veteriner.Controller;
 
 import com.ozguryazilim.veteriner.Dto.AnimalDto;
 import com.ozguryazilim.veteriner.Entity.AnimalEntity;
-import com.ozguryazilim.veteriner.Entity.CustomUserDetail;
+import com.ozguryazilim.veteriner.Config.CustomUserDetail;
 import com.ozguryazilim.veteriner.Service.AnimalService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -66,6 +66,9 @@ public class AnimalController {
         else if (ownerId == null)
             return animalService.getAllAnimalsByName(name);
 
+        else if (name == null)
+            return animalService.getAnimalsByOwnerId(ownerId);
+        
         return animalService.getAllAnimalsByNameAndOwnerId(name, ownerId);
     }
 

@@ -1,7 +1,7 @@
 package com.ozguryazilim.veteriner.Controller;
 
 import com.ozguryazilim.veteriner.Dto.OwnerDto;
-import com.ozguryazilim.veteriner.Entity.CustomUserDetail;
+import com.ozguryazilim.veteriner.Config.CustomUserDetail;
 import com.ozguryazilim.veteriner.Entity.OwnerEntity;
 import com.ozguryazilim.veteriner.Service.OwnerService;
 import lombok.RequiredArgsConstructor;

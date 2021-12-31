@@ -1,6 +1,6 @@
 package com.ozguryazilim.veteriner.Service;
 
-import com.ozguryazilim.veteriner.Entity.CustomUserDetail;
+import com.ozguryazilim.veteriner.Config.CustomUserDetail;
 import com.ozguryazilim.veteriner.Entity.OwnerEntity;
 import com.ozguryazilim.veteriner.Repository.OwnerRepository;
 import lombok.RequiredArgsConstructor;

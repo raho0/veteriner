@@ -1,10 +1,8 @@
 package com.ozguryazilim.veteriner.Entity;
 
 import com.ozguryazilim.veteriner.Dto.AnimalDto;
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 
 import javax.persistence.*;
 

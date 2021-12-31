@@ -1,5 +1,6 @@
-package com.ozguryazilim.veteriner.Entity;
+package com.ozguryazilim.veteriner.Config;
 
+import com.ozguryazilim.veteriner.Entity.OwnerEntity;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.AuthorityUtils;
